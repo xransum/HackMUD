@@ -1,5 +1,5 @@
-/* Wrapper Script for EZ_21 locks. */
 function (context, args) {
+	/* Crack script for EZ_21 vuln hosts. */
     var target = args.t;
     var resp = target.call({});
     var passwds = ["unlock", "open", "release"];
